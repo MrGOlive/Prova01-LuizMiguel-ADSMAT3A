@@ -74,7 +74,7 @@ public class Main {
             Status = Teclado.nextInt();
 
             // TRATAMENTO DE ERRO CASO NÚMERO ERRADO
-            while (Status != 1 || Status != 2) {
+            while (Status != 1 && Status != 2) {
                 System.out.println("Número inválido, digite novamente:\nSim - 1\nNão - 2");
                 Status = Teclado.nextInt();
             }
@@ -117,7 +117,7 @@ public class Main {
             Status = Teclado.nextInt();
 
             // TRATAMENTO DE ERRO CASO NÚMERO ERRADO
-            while (Status != 1 || Status != 2) {
+            while (Status != 1 && Status != 2) {
                 System.out.println("Número inválido, digite novamente:\nSim - 1\nNão - 2");
                 Status = Teclado.nextInt();
             }
@@ -160,7 +160,7 @@ public class Main {
             Status = Teclado.nextInt();
 
             // TRATAMENTO DE ERRO CASO NÚMERO ERRADO
-            while (Status != 1 || Status != 2) {
+            while (Status != 1 && Status != 2) {
                 System.out.println("Número inválido, digite novamente:\nSim - 1\nNão - 2");
                 Status = Teclado.nextInt();
             }
@@ -203,7 +203,7 @@ public class Main {
             Status = Teclado.nextInt();
 
             // TRATAMENTO DE ERRO CASO NÚMERO ERRADO
-            while (Status != 1 || Status != 2) {
+            while (Status != 1 && Status != 2) {
                 System.out.println("Número inválido, digite novamente:\nSim - 1\nNão - 2");
                 Status = Teclado.nextInt();
             }
